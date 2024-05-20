@@ -1,12 +1,12 @@
-# mad_clover/mad_macro_1
+# Mad Macro 1:  A simple 20 Key Macro Pad
 
 ![mad_clover/mad_macro_1](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+This project was a learning experience for me, to design and build a simple handwired macro pad.  I designed the 3D printed case from scratch and wired using techniques learned from Joe Scotto on YouTube.
 
 * Keyboard Maintainer: [John Steffen](https://github.com/TheMadClover)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: Hand wired, with MX switches and any Pro Micro
+* Hardware Availability: AliExpress/Amazon
 
 Make example for this keyboard (after setting up your build environment):
 
