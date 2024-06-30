@@ -1,0 +1,41 @@
+{
+    "manufacturer": "TheMadClover",
+    "keyboard_name": "mad_button_1",
+    "maintainer": "TheMadClover",
+    "bootloader": "caterina",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["D0", "NO_PIN", "NO_PIN"],
+            ["D4", "C6", "D7"],
+            ["E6", "B4", "NO_PIN"]
+        ]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 2.25},
+                {"matrix": [1, 1], "x": 1, "y": 2.25},
+                {"matrix": [1, 2], "x": 2, "y": 2.25},
+                {"matrix": [2, 0], "x": 0, "y": 3.25},
+                {"matrix": [2, 1], "x": 1.5, "y": 3.25}
+            ]
+        }
+    }
+}
