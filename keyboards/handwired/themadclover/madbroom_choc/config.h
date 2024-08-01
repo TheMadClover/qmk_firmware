@@ -14,3 +14,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #define EE_HANDS
+#define COMBO_ONLY_FROM_LAYER 1
