@@ -15,3 +15,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define EE_HANDS
 #define COMBO_ONLY_FROM_LAYER 1
+#define ENCODERS_PAD_A { 26, }
+#define ENCODERS_PAD_B { 15, }
+#define ENCODERS_PAD_A_RIGHT { }
+#define ENCODERS_PAD_B_RIGHT { }
