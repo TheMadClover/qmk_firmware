@@ -8,7 +8,7 @@
     "diode_direction": "COL2ROW",
     "matrix_pins": {
         "cols": ["GP5", "GP6", "GP7", "GP8", "GP14"],
-        "rows": ["GP1", "GP2", "GP3", "GP4"]
+        "rows": ["GP1", "GP2", "GP4", "GP3"]
     },
     "usb": {
         "device_version": "1.0.0",
@@ -31,8 +31,8 @@
         "soft_serial_pin": "GP11",
         "matrix_pins": {
             "right": {
-                "cols": ["GP8", "GP7", "GP5", "GP6", "GP4"],
-                "rows": ["GP1", "GP2", "GP3", "GP15"]
+                "cols": ["GP5", "GP6", "GP14", "GP15", "GP26"],
+                "rows": ["GP1", "GP2", "GP3", "GP4"]
             }
         },
         "bootmagic": {
@@ -72,10 +72,12 @@
                 {"matrix": [6, 2], "x": 9, "y": 2},
                 {"matrix": [6, 3], "x": 10, "y": 2.125},
                 {"matrix": [6, 4], "x": 11, "y": 2.25},
-                {"matrix": [3, 3], "x": 3.5, "y": 3.25},
-                {"matrix": [3, 4], "x": 4.5, "y": 3.5},
-                {"matrix": [7, 0], "x": 6.5, "y": 3.5},
-                {"matrix": [7, 1], "x": 7.5, "y": 3.25}
+                {"matrix": [3, 2], "x": 3.5, "y": 3.25},
+                {"matrix": [3, 3], "x": 4.5, "y": 3.5},
+                {"matrix": [3, 4], "x": 5, "y": 2.25},
+                {"matrix": [7, 0], "x": 6, "y": 2.25},
+                {"matrix": [7, 1], "x": 6.5, "y": 3.5},
+                {"matrix": [7, 2], "x": 7.5, "y": 3.25}
             ]
         }
     }
