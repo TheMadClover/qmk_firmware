@@ -8,7 +8,6 @@ for more options.
 #define MASTER_LEFT
 // #define MASTER_RIGHT
 
-
 //#define TAPPING_TERM 170
 #define TAPPING_TERM 170
 
@@ -23,7 +22,4 @@ for more options.
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 #define NO_ACTION_ONESHOT
-//#define NO_ACTION_TAPPING
-//#define NO_MUSIC_MODE
 
-#define COMBO_COUNT 1
