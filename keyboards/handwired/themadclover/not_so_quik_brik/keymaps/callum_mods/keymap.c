@@ -13,7 +13,7 @@
 #define SPACE_R A(G(KC_RGHT))
 #define LA_SYM MO(SYM)
 #define LA_NAV MO(NAV)
-#define LA_QTY DF(QTY)
+#define LA_COL DF(COL)
 #define LA_DEF DF(DEF)
 
 const uint16_t PROGMEM cmb_esc[] = {KC_W, KC_E, COMBO_END};
@@ -35,7 +35,7 @@ combo_t key_combos[] = {
 
 enum layers {
     DEF,
-    QTY,
+    COL,
     SYM,
     NAV,
     NUM,
@@ -54,23 +54,23 @@ enum keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [DEF] = LAYOUT_split_3x5_2(
-        KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_QUOT,
-        KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,    KC_I,    KC_O,
-        KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SCLN,
-                                   LA_NAV,  KC_SPC,  KC_LSFT, LA_SYM
-    ),
-
-    [QTY] = LAYOUT_split_3x5_2(
         KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_QUOT,
         KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_P,
         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SCLN,
                                    LA_NAV,  KC_SPC,  KC_LSFT, LA_SYM
     ),
 
+    [COL] = LAYOUT_split_3x5_2(
+        KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_QUOT,
+        KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,    KC_I,    KC_O,
+        KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SCLN,
+                                   LA_NAV,  KC_SPC,  KC_LSFT, LA_SYM
+    ),
+
     [SYM] = LAYOUT_split_3x5_2(
         KC_ESC,  KC_LBRC, KC_LCBR, KC_LPRN, KC_TILD, KC_CIRC, KC_RPRN, KC_RCBR, KC_RBRC, KC_GRV,
         KC_MINS, KC_ASTR, KC_EQL,  KC_UNDS, KC_DLR,  KC_HASH, OS_CMD,  OS_ALT,  OS_CTRL, OS_SHFT,
-        KC_PLUS, KC_PIPE, KC_AT,   KC_SLSH, KC_PERC, LA_QTY, KC_BSLS, KC_AMPR, KC_QUES, KC_EXLM,
+        KC_PLUS, KC_PIPE, KC_AT,   KC_SLSH, KC_PERC, LA_COL, KC_BSLS, KC_AMPR, KC_QUES, KC_EXLM,
                                    _______, _______, _______, _______
     ),
 
