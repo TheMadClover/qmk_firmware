@@ -1,7 +1,6 @@
 {
     "manufacturer": "themadclover",
     "keyboard_name": "handwired/themadclover/madbroom_choc",
-    "url": "",
     "maintainer": "themadclover",
     "processor": "RP2040",
     "bootloader": "rp2040",
